@@ -1,0 +1,268 @@
+@import url(_variables.css);
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    background-color: rgba(26, 180, 236, 0.495);
+}
+
+.menu-principal {
+    width: 80%;
+    padding: 32px 0px;
+    margin: 0 auto;
+    line-height: normal;  
+}
+
+.imagen-logo {
+    margin-right: 1em;
+    width: 24px;
+    height: 24px;
+	box-shadow: 5px 5px 10px 2px rgb(212, 209, 193);
+ }
+
+.headerPrincipal-nav-link {
+	padding: 10px;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+}
+
+nav a {
+    color: #464646;;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #408DFF;
+}
+
+.presentacion { 
+    width: 80%;
+    margin: 32px auto;
+}
+
+.presentacion p {
+
+    font-size: 22px;
+    margin: 0px 0px 24px 0px;
+}
+
+.contenido-presentacion > p:first-child {
+    font-size: 3.4em;
+    font-weight: bold;
+    line-height: 61px;   
+}
+
+.foto-perfil {   
+    width: 32.3%;
+	border-radius: 50%;
+}
+
+.subtitulo {
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 38px;
+
+}
+
+.sobre-mi {
+    background-color: #EAF2FD;
+    padding: 64px 0px;
+}
+
+.firma {
+    width: 12%;
+}
+
+.skills-hobbies .container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.skills-hobbies .container .subtitulo {
+    text-align: center;
+    margin: 1em 0em;
+}
+
+.contenidoPrincipal-skills-link {
+	height: 174px;
+	background-color: #FFF;
+	text-align: left;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+    width: 16%;
+	margin-bottom: 10px;
+}
+
+.contenidoPrincipal-skills-link a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+    font-size: smaller;
+}
+
+.contenidoPrincipal-skills-link:hover {
+	box-shadow: 4px 4px 4px #CCC;
+}
+
+.contenidoPrincipal-skills-link a:before {
+	content: '';
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin: 115px 5px 7px 2px;
+}
+
+.icon-skill {
+	padding-top: 105px;
+}
+
+.formacion {
+    background-color: #EAF2FD;
+	padding: 32px 0px;
+	margin: 88px 0px;
+}
+
+.formacion .container {
+    width: 80%;
+    margin: 0px auto;
+	padding: 0px 0px 64px;
+}
+
+.formacion .container .subtitulo {
+    text-align: center;
+    margin: 0px 0px 32px 0px;
+}
+
+.contenidoPrincipal-formacion-link {
+
+	background-color: #FFF;
+	text-align: left;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+    width: 32%;
+    height: 286px;
+}
+
+.contenidoPrincipal-formacion-link:first-child {
+	background: url(../img/logo-fukl.png) no-repeat;
+	background-color: #FFF;
+	background-position: center;
+}
+
+.contenidoPrincipal-formacion-link:nth-child(2) {
+	background: url(../img/logo-oneAlura.png) no-repeat;
+	background-color: #FFF;
+	background-position: center;
+}
+
+.contenidoPrincipal-formacion-link:nth-child(3) {
+	background: url(../img/logo-mintic.png) no-repeat;
+	background-color: #FFF;
+	background-position: center
+}
+
+
+.contenidoPrincipal-formacion-link a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	top: 0;
+	left: 0;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.contenidoPrincipal-formacion-link:hover {
+	box-shadow: 4px 4px 4px #CCC;
+}
+
+.contenidoPrincipal-formacion-link a:before {
+	content: '';
+	display: block;
+	margin: 297px 5px 7px 2px;
+}
+
+.experiencia-prog .container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.experiencia-prog .container .subtitulo {
+    text-align: center;
+    margin: 0px 0px 32px 0px;
+}
+
+.imagen-proyecto {
+	width: 70%;
+}
+
+.titulo-proyecto {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 25.83px;
+}
+
+.descripcion-proyecto {
+	margin: 8px 0px;
+}
+
+.repoProy-button {
+	border: 1px solid #2A7AE4;
+	box-sizing: border-box;
+	padding: 16px;
+	color: #2A7AE4;
+	margin-right: 16px;
+}
+
+.repoProy-button:hover {
+	background: #D4E4FA;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.demoProy-button {
+	background: #2A7AE4;
+	border: 1px solid #2A7AE4;
+	box-sizing: border-box;
+	padding: 16px;
+	color: #FFF;
+}
+
+.demoProy-button:hover {
+	background: #5595E9;
+}
+
+.formcontacto {
+	background-color: #EAF2FD;
+}
+
+.imagen-contacto {
+	display: block;
+	width: 464px;
+	height: 570px;
+}
+
+.contact-title {
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.contact-subtext {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 25px;
+	margin: 0;
+}
+
